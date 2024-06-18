@@ -18,4 +18,44 @@ Improve speech recognition accuracy and response time.
 Expand functionality to include more applications and services.
 
 # ISROVikrant ----- made for ISRO
+Bhuvan Assistant
+Overview
+This Python script acts as a virtual assistant powered by various APIs and AI models to perform tasks such as generating responses, downloading files from Bhuvan API, navigating to Bhuvan categories, and providing information from Wikipedia.
+
+Features:
+Voice Interaction: Utilizes speech recognition (via speech_recognition library) and text-to-speech capabilities (via pyttsx3) for user interaction.
+OpenAI Integration: Uses OpenAI's GPT-3 model for generating responses and Python code snippets dynamically.
+Bhuvan API Interaction: Downloads zipped files from Bhuvan API using generated Python code.
+Web Scraping: Opens Bhuvan web pages based on user queries using webbrowser.
+Wikipedia Integration: Provides summaries of topics using wikipedia API.
+
+Dependencies:
+openai: for accessing OpenAI's API
+requests: for making HTTP requests
+pyttsx3: for text-to-speech conversion
+wikipedia: for fetching information from Wikipedia
+webbrowser: for opening URLs in the web browser
+speech_recognition: for voice recognition
+gtts: for Google Text-to-Speech API
+tqdm: for displaying progress bars
+
+Setup
+Install dependencies
+Copy code
+"pip install openai requests pyttsx3 wikipedia pywhatkit SpeechRecognition gtts tqdm"
+Set up OpenAI API key in the script (openai.api_key = "your_api_key").
+
+Usage:
+Run the script (python bhuvan_assistant.py).
+The assistant will greet you based on the time of the day.
+Speak or enter a query.
+Based on the query:
+Download files from Bhuvan API.
+Fetch information from Wikipedia.
+Open Bhuvan web pages related to specific categories.
+Voice Commands
+Download: To initiate file download using generated code.
+Aditya: To generate responses based on user input.
+Specific Keywords: Directs to specific Bhuvan categories based on user input.
+Tell me about / Search for: Retrieves information from Wikipedia based on the query.
 
