@@ -1,0 +1,11 @@
+openai==0.27.0
+requests==2.31.0
+datetime
+pyttsx3==2.90
+wikipedia-api==0.5.8
+webbrowser
+os-sys
+pywhatkit==5.4
+SpeechRecognition==3.9.0
+gTTS==2.3.2
+tqdm==4.68.0
